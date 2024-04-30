@@ -1,16 +1,7 @@
 # LionSpell
 
-In this assignment you will construct SwiftUI Views for a simple application based on the New
-York Times Spelling Bee game. It requires a little bit of coding, but the primary goal of the
-assignment is to familiarize you with the tools we’ll be using in the class. Take time to explore
-Xcode as this is a good investment of your time.
-Your app will eventually have the following functionality: The app presents the user with 5
-buttons, each displaying a different letter. The user creates words by tapping buttons to spell
-out words. As the user taps, the word being formed is displayed. When a legal word is formed,
-a button will be enabled that allows the user to submit the word. Each correct word scores
-points and the current total score is always displayed. Legal words are at least four letters long,
-with all characters drawn from the letters on the buttons. Repeated letters in a word are
-allowed. The word must also be found in a list of words that will be provided. A running list of
-words found by the user will be displayed. A delete button will allow the user to delete the last
-letter entered. A button will allow the user to start a new game by generating a new set of letters
-and another button will rearrange the letters.
+This app is inspired by the New York Times Spelling Bee game and is developed using SwiftUI.
+
+The app features a simple interface with five buttons, each labeled with a different letter. Users create words by tapping these buttons, with each tap adding a letter to the word currently being formed, which is displayed on the screen. Once a valid word is completed—defined as being at least four letters long and composed only of the letters displayed on the buttons—it can be submitted for points by enabling a specific button. 
+
+Points are accumulated with each correct word, and the user's total score is displayed continuously. Users can also see a running list of all words they have successfully formed. If a user needs to correct a mistake, a delete button allows them to remove the last letter they entered. Additional functionality includes a button to start a new game, which generates a new set of letters, and another button that rearranges the existing letters to help spark new word ideas.
